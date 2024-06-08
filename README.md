@@ -17,9 +17,6 @@ This project is a responsive landing page designed for a mobile application. It 
 - CSS: Used for styling the layout and elements of the page.
 - Responsive Design: Media queries and flexbox/grid layout techniques are utilized for responsiveness.
 
-## Preview
-
-
 
 --------->Additional Features 
 -Implemented hover effects on interactive elements.
