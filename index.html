@@ -282,7 +282,12 @@
         <hr />
         <div class="footer-copyright">Copyright 2024 uifry.com All Rights Reserved</div>
     </div>
-   <link rel="stylesheet" href="script.js">
-</body>
+    </body>
+<!-- <link rel="stylesheet" href="script.js"> -->
+<script>
+    document.getElementById('checkbox').addEventListener('change', function() {
+        document.body.classList.toggle('dark-mode', this.checked);
+    });
+</script>
 
 </html>
