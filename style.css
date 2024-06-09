@@ -1,23 +1,16 @@
-/*Dark mode*/
-:root .dark-mode{
+/* Dark mode */
+:root .dark-mode {
   --bg-main: #18122B;
   --bg-primary: #ECF2FF;
-
 }
 
-body .dark-mode{
+body.dark-mode {
   background-color: var(--bg-main);
   color: var(--bg-primary);
-
 }
 
-.dark-mode{
-  color: var(--bg-primary);
-}
-
-
-/*light mode*/
-:root{
+/* Light mode */
+:root {
   --bg-main: #ECF2FF;
   --bg-primary: #18122B;
 }
@@ -93,19 +86,20 @@ body {
   transition: .4s;
 }
 
-.toggle-btn{
+
+/* Toggle Button */
+.toggle-btn {
   height: 10rem;
   display: flex;
   align-items: center;
   margin-bottom: 50%;
-  
 }
 
-#checkbox{
+#checkbox {
   visibility: hidden;
 }
 
-.toggle-label{
+.toggle-label {
   width: 3rem;
   height: 2rem;
   background-color: #f55;
@@ -115,7 +109,7 @@ body {
   gap: 1.5rem;
 }
 
-.toggle-ball{
+.toggle-ball {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
@@ -124,10 +118,9 @@ body {
   position: absolute;
   top: .5rem;
   left: .5rem;
-
 }
 
-#checkbox:checked + .toggle-label .toggle-ball{
+#checkbox:checked + .toggle-label .toggle-ball {
   transform: translateX(1rem);
   background-color: #000;
 }
